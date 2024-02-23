@@ -1,0 +1,85 @@
+/* Auth.css */
+
+.main-container {
+  display: flex;
+  flex-direction: column; /* Align children vertically */
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #e8f5e9; /* Light green background */
+}
+
+.info-text {
+  margin-bottom: 30px; /* Add some space below the text */
+  font-size: 24px; /* Large font size for the info text */
+  color: #333; /* Dark grey color for the text */
+  text-align: center; /* Center the text if it's on multiple lines */
+  max-width: 600px; /* Set a max-width for the text container */
+}
+
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #e8f5e9; /* Light green background */
+}
+
+.auth-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; /* Ensures the content wrapper takes full width */
+  max-width: 320px; /* Adjust this value based on the width of your form */
+}
+.auth-message {
+  text-align: center; /* Centers the text */
+  margin-bottom: 20px; /* Adds space below the text */
+  color: #333; /* Adjust text color as needed */
+}
+
+.auth-text {
+  flex: 1; /* Take up an equal amount of space as the forms */
+  max-width: 600px; /* Maximum width of the text container */
+  margin-right: 50px; /* Margin between text and forms */
+}
+
+.auth-text p {
+  font-size: 1.2rem; /* Font size for the paragraph */
+  color: #333; /* Color of the text */
+  /* Add more styling as needed */
+}
+
+.auth-forms {
+  flex: 1; /* Take up an equal amount of space as the text */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Continue with the rest of your styles... */
+
+/* Ensure styles for forms, inputs, buttons, etc., are still applied */
+
+.toggle-button-container {
+  margin-top: 20px; /* Adjust the spacing as needed */
+  text-align: center;
+}
+
+.toggle-form-button {
+  background: none;
+  border: none;
+  color: #4caf50; /* Green text for the toggle button */
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.toggle-form-button:hover {
+  text-decoration: underline;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 10px;
+  text-align: center;
+}

@@ -1,0 +1,112 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #e8f5e9; /* A light green background for the whole page */
+}
+
+.login-form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.login-form {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px; /* Space between form and toggle button */
+}
+.login-form label {
+  display: block;
+  color: #4caf50; /* Green color for input labels */
+  margin-bottom: 5px;
+}
+
+.login-form form {
+  max-width: 300px;
+  width: 100%;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form input[type='email'],
+.login-form input[type='password'] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.login-form input[type='submit'] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #4caf50; /* Green background for the button */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-form input[type='submit']:hover {
+  background-color: #43a047;
+}
+
+.login-form .toggle-form {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.login-form .toggle-form a {
+  color: #4caf50; /* Green color for the toggle form link */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.login-form .toggle-form a:hover {
+  color: #388e3c;
+}
+
+.login-form button {
+  background-color: #4caf50; /* Green */
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.3s;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  font-size: 16px;
+}
+
+.login-form button:hover {
+  background-color: #45a049;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.toggle-form-button {
+  background-color: transparent;
+  color: #4caf50; /* Green */
+  padding: 10px 15px;
+  margin-top: 15px;
+  border: 2px solid #4caf50;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: all 0.3s;
+  font-size: 16px;
+}
+
+.toggle-form-button:hover {
+  background-color: #4caf50;
+  color: white;
+  border-color: #4caf50;
+}

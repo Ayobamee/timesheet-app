@@ -1,0 +1,99 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: #e8f5e9; /* A light green background for the whole page */
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: 'Arial', sans-serif;
+}
+
+.signup-form h2 {
+  color: #097969; /* Green color for the 'Sign Up' text */
+  margin-bottom: 20px;
+}
+
+.signup-form label {
+  display: block;
+  color: #097969; /* Green color for input labels */
+  margin-bottom: 5px;
+}
+
+.signup-form form {
+  max-width: 300px;
+  width: 100%;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-form input[type='email'],
+.signup-form input[type='password'] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.signup-form input[type='submit'] {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #097969; /* Green background for the button */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup-form input[type='submit']:hover {
+  background-color: #097969;
+}
+
+.signup-form .toggle-form {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.signup-form .toggle-form a {
+  color: #097969; /* Green color for the toggle form link */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.signup-form .toggle-form a:hover {
+  color: #097969;
+}
+
+.confirm-sign-up-btn {
+  background-color: #4caf50; /* Green background */
+  color: white; /* White text */
+  padding: 12px 20px; /* Padding for size */
+  border: none; /* No border */
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 1rem; /* Font size */
+  transition: background-color 0.3s; /* Transition for smooth color change */
+  outline: none; /* Remove outline */
+  width: 100%; /* Full width */
+  box-sizing: border-box; /* Box-sizing to include padding in width */
+  margin-top: 10px; /* Margin on top */
+}
+
+.confirm-sign-up-btn:hover {
+  background-color: #43a047; /* Darker green background on hover */
+}
+
+.confirm-sign-up-btn:active {
+  background-color: #388e3c; /* Even darker green when the button is clicked */
+}
